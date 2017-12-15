@@ -6,45 +6,67 @@ body {
   background-attachment: fixed;
   background-size: cover; }
 
-/* The only rule that matters */
-#video-background {
-  /*  making the video fullscreen  */
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100; }
+#home {
+  /* The only rule that matters */
+  /* These just style the content */ }
+  #home #video-background {
+    /*  making the video fullscreen  */
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100; }
+  #home article {
+    /*  just a fancy border  */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 15px solid rgba(0, 0, 0, 0.7);
+    margin: 10px; }
+  #home h1 {
+    background-image: url("../images/bg-black-opacity-70.png");
+    padding: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    letter-spacing: 3px;
+    color: #fff;
+    font-family: Oswald, sans-serif;
+    text-align: center; }
+  #home h1 span {
+    font-family: sans-serif;
+    letter-spacing: 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px; }
+  #home h1 span a {
+    color: #fff; }
 
-/* These just style the content */
-article {
-  /*  just a fancy border  */
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border: 10px solid rgba(255, 255, 255, 0.5);
-  margin: 10px; }
-
-h1 {
-  position: absolute;
-  top: 45%;
-  width: 100%;
-  font-size: 50px;
-  letter-spacing: 3px;
-  color: #fff;
-  font-family: Oswald, sans-serif;
-  text-align: center; }
-
-h1 span {
-  font-family: sans-serif;
-  letter-spacing: 0;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px; }
-
-h1 span a {
-  color: #fff; }
+#us {
+  background: #181818; }
+  #us div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+    #us div h1 {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+      letter-spacing: 3px; }

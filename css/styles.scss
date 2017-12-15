@@ -7,6 +7,7 @@ body {
     background-size: cover;
   }
   
+#home {
   /* The only rule that matters */
   #video-background {
   /*  making the video fullscreen  */
@@ -23,20 +24,23 @@ body {
   /* These just style the content */
   article {
   /*  just a fancy border  */
+    display: flex;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    border: 10px solid rgba(255, 255, 255, 0.5);
+    border: 15px solid rgba(0, 0, 0, 0.7);
     margin: 10px;
   }
   
   h1 {
-    position: absolute;
-    top: 45%;
-    width: 100%;
-    font-size: 50px;
+    background-image: url('../images/bg-black-opacity-70.png');
+    padding: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     letter-spacing: 3px;
     color: #fff;
     font-family: Oswald, sans-serif;
@@ -54,3 +58,25 @@ body {
   h1 span a {
     color: #fff;
   }
+}
+
+#us {
+  background: rgb(24, 24, 24);
+  
+  div {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    h1 {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+      letter-spacing: 3px;
+    }
+  }
+}
