@@ -98,18 +98,25 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  #services > div {
+  #services .row {
     width: 100%; }
-    #services > div:first-child {
-      font-size: calc(2em + 1.5vw);
+    #services .row > div {
       padding: 2vw;
+      letter-spacing: 3px; }
+    #services .row .s12 {
+      font-size: calc(2em + 1.5vw);
+      text-align: center;
+      color: white;
+      font-weight: bolder; }
+    #services .row .carousel {
+      font-size: 2em;
+      font-size: calc(.2em + .7vw);
       font-weight: bolder;
       color: #fff;
       margin: auto;
-      text-align: center;
-      letter-spacing: 3px; }
-      #services > div:first-child i.tiny {
-        font-size: calc(2em + 1.5vw); }
+      text-align: center; }
+      #services .row .carousel i.tiny {
+        font-size: calc(.2em + .5vw); }
 
 #clients {
   background: rgba(12, 12, 12, 0.9);

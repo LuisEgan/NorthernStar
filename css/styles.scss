@@ -114,20 +114,31 @@ section {
   position: relative;
   display: flex;
 
-  >div {
+  .row {
     width: 100%;
 
-    &:first-child {
-      i.tiny {
-        font-size: calc(2em + 1.5vw);
-    }
-      font-size: calc(2em + 1.5vw);
+    >div {
       padding: 2vw;
+      letter-spacing: 3px;
+    }
+
+    .s12 {
+      font-size: calc(2em + 1.5vw);
+      text-align: center;
+      color: white;
+      font-weight: bolder;
+    }
+
+    .carousel {
+      i.tiny {
+        font-size: calc(.2em + .5vw);
+      }
+      font-size: 2em;
+      font-size: calc(.2em + .7vw);
       font-weight: bolder;
       color: #fff;
       margin: auto;
       text-align: center;
-      letter-spacing: 3px;
     }
   }
 }
